@@ -21,7 +21,9 @@ namespace frameworkForms
         private void button1_Click(object sender, EventArgs e)
         {
             Communicator comm = new Communicator();
-            listBox1.Items.Add(comm.GetStatus(88)) ;
+            textBox1.Text += (comm.GetStatus(88)) + Environment.NewLine;
+
+
         }
     }
 }

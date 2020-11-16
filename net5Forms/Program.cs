@@ -1,23 +1,24 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+
 
 namespace net5Forms
 {
-    static class Program
+    public class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
+        public static Form1 MainForm { get; private set; }
+
         [STAThread]
-        static void Main()
+        public static void Main(string[] args)
         {
-            Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            MainForm = new Form1();
+            Application.Run(MainForm);
         }
     }
 }
