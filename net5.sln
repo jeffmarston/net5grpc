@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebAppli
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "grpcSample", "grpcSample", "{7704AB7B-2C9E-4490-BAFE-532EF72028A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeter", "GrpcGreeter\GrpcGreeter.csproj", "{13E8E88D-4BB5-4045-A3A2-764146A8EE07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcGreeter", "GrpcGreeter\GrpcGreeter.csproj", "{13E8E88D-4BB5-4045-A3A2-764146A8EE07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeterClient", "GrpcGreeterClient\GrpcGreeterClient.csproj", "{DBF35FBC-4092-46A5-9ED5-1C82C248BBF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcGreeterClient", "GrpcGreeterClient\GrpcGreeterClient.csproj", "{DBF35FBC-4092-46A5-9ED5-1C82C248BBF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRPCClient", "GRPCClient\GRPCClient.csproj", "{9A280D32-907A-46CF-8F9C-D603974350FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{DBF35FBC-4092-46A5-9ED5-1C82C248BBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBF35FBC-4092-46A5-9ED5-1C82C248BBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBF35FBC-4092-46A5-9ED5-1C82C248BBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A280D32-907A-46CF-8F9C-D603974350FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A280D32-907A-46CF-8F9C-D603974350FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A280D32-907A-46CF-8F9C-D603974350FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A280D32-907A-46CF-8F9C-D603974350FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
